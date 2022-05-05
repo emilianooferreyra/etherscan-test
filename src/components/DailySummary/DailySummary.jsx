@@ -56,20 +56,20 @@ const DailySummary = () => {
             <div className="summary-left-content">
               <h2 className="text-secondary">TRANSACTIONS</h2>
               <a
-                className=""
-                href="/txns"
+                className="text-secondary-content"
+                href="#"
               >
                 $ 1,562.57 M
               </a>
-              <span>(10.0 TPS)</span>
+              <span className="text-secondary-content">(10.0 TPS)</span>
             </div>
             <div className="text-align">
               <h2 className="text-secondary">MED GAS PRICE</h2>
-              <a className="text-secondary-content" href="/gastracker">
+              <a className="text-secondary-content" href="#">
                 {medGasPrice} 
                 Gwei
               </a>
-              <span>($3.91)</span>
+              <span className="text-secondary-content">($3.91)</span>
             </div>
           </div>
           <hr className="hr-summary" />
@@ -83,19 +83,19 @@ const DailySummary = () => {
             </figure>
             <div className="summary-left-content">
               <h2 className="text-secondary">DIFFICULTY</h2>
-              <a className="text-secondary-content" href="/txns">
+              <a className="text-secondary-content" href="#">
                 13,382.89
               </a>
-              <span>
+              <span className="text-secondary-content">
                 TH
               </span>
             </div>
             <div className="text-align-right">
               <h2 className="text-secondary">HASH RATE</h2>
-              <a className="text-secondary-content" href="/gastracker">
+              <a className="text-secondary-content" href="#">
                 1,072,089.38
               </a>
-              <span>
+              <span className="text-secondary-content">
                 GH/s
               </span>
             </div>
