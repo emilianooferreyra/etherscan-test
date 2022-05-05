@@ -7,12 +7,15 @@
   border-radius: 4px;
   outline: none;
   border: none;
-  font-size: 16px;
-  color: black;
+  font-size: 14px;
+  color: #000000;
   cursor: pointer;
   background: none;
-  font-size: 14px;
 
+  @media (max-width: 768px) {
+    font-size: 21px;  
+    color: #fff;
+  }
 }
 
 .p-r {

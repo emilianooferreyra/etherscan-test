@@ -9,7 +9,7 @@ const FilterEth = () => {
       </div>
       <div className="select-search">
         <select defaultValue="" className="select-search-type custom-arrow-select">
-          <option value="" disabled>
+          <option value="">
             All Filters
           </option>
           <option value="1">Addresses</option>

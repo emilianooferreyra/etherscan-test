@@ -53,48 +53,48 @@ const Navbar = () => {
             onMouseEnter={onMouseEnter}
             onMouseLeave={onMouseLeave}
           >
-            <Link
-              to=""
+            <a
+              href="#"
               className="nav-links"
               onClick={closeMobileMenu}
             >
               Blockchain <i className="fa fa-angle-down fa-xs" aria-hidden="true"></i>
-            </Link>
+            </a>
             {dropdown && <Dropdown />}
           </li>
           <li className="nav-item">
-            <Link
-              to=""
+            <a
+              href="#"
               className="nav-links"
               onClick={closeMobileMenu}
             >
               Tokens <i className="fa fa-angle-down fa-xs" aria-hidden="true"></i>
-            </Link>
+            </a>
           </li>
           <li className="nav-item">
-            <Link
-              to=""
+            <a
+              href="#"
               className="nav-links"
               onClick={closeMobileMenu}
             >
               Resources <i className="fa fa-angle-down fa-xs" aria-hidden="true"></i>
-            </Link>
+            </a>
           </li>
           <li className="nav-item">
-            <Link
-              to=""
+            <a
+              href="#"
               className="nav-links"
               onClick={closeMobileMenu}
             >
               More <i className="fa fa-angle-down fa-xs" aria-hidden="true"></i>
-            </Link>
+            </a>
           </li>
           <li className="nav-item">
             <Button />
           </li>
           <li className="nav-item">
-            <Link
-              to="/"
+            <a
+              href="#"
               className="nav-links btn-fa fa-xs"
               onClick={closeMobileMenu}
             >
@@ -105,7 +105,7 @@ const Navbar = () => {
                 height="19"
                 alt="logo"
               />
-            </Link>
+            </a>
           </li>
         </ul>
       </nav>

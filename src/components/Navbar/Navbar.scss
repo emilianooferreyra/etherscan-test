@@ -93,19 +93,21 @@
         left: 0;
         opacity: 1;
         transition: all 0.5s ease;
-        z-index: 1;
+        z-index: 9;
       }
     }
 
     .nav-links {
-      text-align: center;
+      text-align: left;
       padding: 2rem;
       width: 100%;
       display: table;
+      font-size: 25px;
 
       &:hover {
-        background-color: #1888ff;
+        background-color: #6c757e;
         border-radius: 0;
+        color: #fff;
       }
     }
 
@@ -127,7 +129,7 @@
     }
 
     .fa-times {
-      color: #fff;
+      color: #000000;
       font-size: 2rem;
     }
 
@@ -150,10 +152,6 @@
       }
     }
 
-    button {
-      display: none;
-    }
-
     ul {
       list-style-type: none;
       margin: 0;
@@ -167,7 +165,7 @@
 
       a {
         display: inline-block;
-        color: white;
+        color: #fff;
         text-align: center;
         padding: 14px 16px;
         text-decoration: none;
@@ -176,7 +174,7 @@
 
     .dropbtn {
       display: inline-block;
-      color: white;
+      color: #fff;
       text-align: center;
       padding: 14px 16px;
       text-decoration: none;
@@ -184,7 +182,7 @@
 
     li a:hover,
     .dropdown:hover .dropbtn {
-      background-color: red;
+      background-color: #6c757e;
     }
 
     li.dropdown {
@@ -200,7 +198,7 @@
       z-index: 1;
 
       a {
-        color: black;
+        color: #000000;
         padding: 12px 16px;
         text-decoration: none;
         display: block;
