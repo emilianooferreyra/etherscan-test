@@ -35,6 +35,11 @@
       justify-content: flex-start;
     }
   }
+  .summary-1-2-left-content {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
 
   .summary-figure {
     width: 26px;

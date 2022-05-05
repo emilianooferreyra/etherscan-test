@@ -44,14 +44,19 @@
 
 
   .transactions-content {
-    height: 400px;
     position: relative;
     flex: 1 1 auto;
     min-height: 1px;
-    padding: 0.75rem;
+    padding: 0 0.75rem;
     display: block;
     background-color: #ffffff;
     font-size: 14px;
+  }
+
+  .transactions-wrapper {
+    overflow: scroll;
+    overflow-x: hidden;
+    height: 500px;
   }
 
   .p-l-3 {
@@ -59,6 +64,9 @@
   }
   .p-r-3 {
     margin-right: 3px;
+  }
+  .m-t {
+    margin-top: 1rem;
   }
 
   .transactions-row {
