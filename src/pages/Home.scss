@@ -1,0 +1,31 @@
+.content-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px 251.5px;
+  padding: 0px 15px 72px;
+
+  .content-blocks {
+    flex: 0 0 50%;
+    padding-right: 7.5px;
+  }
+
+  .content-transactions {
+    flex: 0 0 50%;
+    padding-left: 7.5px;
+  }
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    margin: 0;
+    padding: 0px 40px 72px;
+
+    .content-blocks {
+      padding-right: 0;
+      padding-bottom: 20px;
+    }
+
+    .content-transactions {
+      padding-left: 0;
+    }
+  }
+}

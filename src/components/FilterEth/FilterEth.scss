@@ -1,0 +1,97 @@
+.search-bar {
+  background-color: #112641 !important;
+  background-image: url("https://etherscan.io/images/svg/components/abstract-shapes-20.svg?v=1");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 52px 15px 125px 265px;
+
+  @media (max-width: 768px) {
+    padding: 52px 15px 125px 40px;
+
+  }
+
+
+  .select-selected:after {
+    border-color: #fff transparent transparent transparent;
+    border: 6px solid transparent;
+    content: "";
+    height: 0;
+    position: absolute;
+    right: 10px;
+    top: 14px;
+    width: 0;
+  }
+
+  .search-bar-title {
+    margin-bottom: 12px;
+
+    @media (max-width: 768px) {
+      margin-top: 20px;
+    }
+
+    h1 {
+      color: #fff;
+      font-size: 21px;
+      font-weight: 100;
+      line-height: 1.5;
+    }
+  }
+
+  .select-search {
+    box-shadow: 0 0.5rem 1.2rem rgb(189 197 209 / 20%);
+    display: flex;
+    width: 761px;
+
+    @media (max-width: 768px) {
+      width: 670px;
+    }
+  
+
+    .select-search-type {
+      appearance: none;
+      border-bottom-left-radius: 5px 5px;
+      border-top-left-radius: 5px;
+      border-width: 0;
+      border: 1px solid #d5dae2;
+      font-size: 14px;
+      height: 48px;
+      text-indent: 1rem;
+      width: 121px;
+    }
+
+    .custom-arrow-select {
+      background: #fff
+        url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 250 151.717'%3E%3Cpath d='M115.285 147.693L4.025 36.433a13.739 13.739 0 0 1 0-19.431L17.002 4.025a13.74 13.74 0 0 1 19.408-.023l88.591 88.176 88.59-88.176a13.74 13.74 0 0 1 19.408.023l12.977 12.981a13.739 13.739 0 0 1 0 19.431l-111.26 111.256a13.741 13.741 0 0 1-19.432 0z' fill='%2377838f'/%3E%3C/svg%3E")
+        no-repeat right 1rem center;
+      background-size: 8px 15px;
+    }
+
+    .search-input {
+      border: 1px solid #ced4da;
+      height: 48px;
+      text-indent: 15px;
+      width: 594px;
+    }
+
+    .search-button {
+      background-color: #3498db;
+      border-bottom-right-radius: 5px 5px;
+      border-color: #3498db;
+      border-top-right-radius: 5px;
+      border-width: 0;
+      box-sizing: border-box;
+      cursor: pointer;
+      height: 48px;
+      width: 47px;
+
+      i {
+        color: #fff;
+      }
+
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+}

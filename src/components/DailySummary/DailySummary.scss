@@ -1,0 +1,151 @@
+.daily-summary {
+  background-color: #ffffff;
+  margin: -48px 265px 20px;
+  padding: 1.25rem 0;
+  box-shadow: 0 0.5rem 1.2rem rgb(189 197 209 / 20%);
+  border-radius: 10px;
+  
+  @media (max-width: 768px) {
+    margin: -40px 40px 50px;
+  }
+
+  .summary {
+    display: flex;
+
+    @media (max-width: 768px) {
+      flex-direction: column;
+    }
+  }
+
+  .summary-box {
+    width: 626.5px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .summary-content {
+    display: flex;
+  }
+
+  .summary-content-right {
+    display: flex;
+    justify-content: space-around;
+
+    @media (max-width: 768px) {
+      justify-content: flex-start;
+    }
+  }
+
+  .summary-figure {
+    width: 26px;
+    height: 26px;
+    margin-right: 8px;
+    margin-top: 5px;
+  }
+
+  .summary-left-content {
+    width: 252.547px;
+    height: auto;
+    padding-bottom: 30px;
+  }
+
+
+  .summary-container {
+    display: flex;
+    padding-top: 30px;
+
+    @media (max-width: 768px) {
+      padding-bottom: 30px;
+    }
+  }
+
+  .summary-container-right {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+
+    @media (max-width: 768px) {
+      justify-content: flex-start;
+    }
+  }
+
+  .text-align-right {
+    text-align: right;
+
+    @media (max-width: 768px) {
+      padding-left: 11rem;
+    }
+  }
+
+  .summary-1-2-figure {
+    width: 26px;
+    height: 26px;
+    margin-right: 8px;
+  }
+
+  .hr-summary {
+    opacity: 0.75;
+    border: 0;
+    border-top: 1px solid #e7eaf3;
+  }
+  
+  .v-hr-summary {
+    opacity: 0.75;
+    border: 0;
+    border-left: 1px solid #e7eaf3;
+  }
+
+  .summary-history {
+    width: 626.5px;
+    padding: 0 24px;
+  }
+
+  .transactions {
+    display: block;
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    padding-left: 7.5px;
+    padding-right: 7.5px;
+
+    @media (max-width: 768px) {
+      padding-bottom: 10rem;
+    }
+  }
+
+  .text-align {
+    text-align: right;
+
+    @media (max-width: 768px) {
+      padding-left: 4rem;
+    }
+  }
+
+  .text-secondary {
+    font-size: 12px;
+    color: #77838f;
+  }
+
+  .text-secondary-content {
+    font-size: 15px;
+    color: #77838f;
+  }
+
+  .position-relative {
+    position: relative;
+    float: right;
+    z-index: 2;
+    margin-top: -8px;
+  }
+
+  .p-l-30 {
+    width: 27px;
+    height: 27px;
+    padding: 8px;
+    color: #77838f;
+    background: rgba(119,131,143,.1);
+    border-color: transparent;
+    border-radius: 5.25px;
+    text-align: center;
+  }
+}
